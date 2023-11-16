@@ -185,6 +185,7 @@ span {
   .title {
     flex-direction: column;
     align-items: center;
+    margin-top: 15vh;
 
 
   }
