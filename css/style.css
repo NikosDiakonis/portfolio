@@ -204,6 +204,13 @@ span {
 
 }
 
+@media (max-width: 600px) {
+  .grid a {
+    margin-left: 0;
+
+  }
+}
+
 .footerContainer {
   display: flex;
   justify-content: space-between;
