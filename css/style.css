@@ -72,6 +72,15 @@ body {
   margin-left: 20px;
 }
 
+@media (max-width: 600px) {
+  .aboutText {
+    margin-left: 0;
+
+
+  }
+}
+
+
 @keyframes paint-text {
   from {
     background-size: 0% 100%;
@@ -239,6 +248,8 @@ span {
 @media (max-width: 600px) {
   .footer-icon {
     margin-bottom: 5vh;
+    margin-left: 0;
+    margin-right: 0;
 
   }
 }
