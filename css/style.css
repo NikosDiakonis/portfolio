@@ -42,6 +42,13 @@ body {
   margin-right: 10vh;
 }
 
+@media (max-width: 600px) {
+  .photo {
+    margin-right: 0;
+
+  }
+}
+
 .about {
   display: flex;
   justify-content: center;
