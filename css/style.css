@@ -114,6 +114,15 @@ body {
   margin-bottom: 1.7em;
 }
 
+@media (max-width: 600px) {
+  .profession {
+    margin-top: 0.8em;
+
+
+
+  }
+}
+
 .bold {
   font-weight: bold;
 }
