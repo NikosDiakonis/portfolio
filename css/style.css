@@ -408,16 +408,11 @@ span {
 @media (max-width: 768px) {
   .card {
     transform: scale(0.75);
-    /* slightly smaller scale */
+
   }
 }
 
-@media (max-width: 480px) {
-  .card {
-    transform: scale(0.65);
-    /* even smaller scale for small screens */
-  }
-}
+
 
 .card-image {
   max-width: 100%;
