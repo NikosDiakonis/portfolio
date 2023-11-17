@@ -44,9 +44,20 @@ body {
   margin-right: 10vh;
 }
 
+@media (max-width: 768px) {
+  .photo {
+    height: 37vh;
+    width: 37vh;
+    margin-right: 8vh;
+  }
+}
+
 @media (max-width: 600px) {
   .photo {
     margin-right: 0;
+    height: 27vh;
+    width: 27vh;
+    margin-right: 5vh;
 
   }
 }
