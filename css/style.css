@@ -194,6 +194,20 @@ span {
 
 }
 
+.portfolio-quote p {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .portfolio-quote p {
+    max-width: 80%;
+  }
+}
+
+
 @media (max-width: 600px) {
   .title {
     flex-direction: column;
@@ -354,12 +368,18 @@ span {
   height: 100px;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 button {
-  padding: 10px 15px;
+  padding: 8px 12px;
   background-color: rgb(255, 69, 69);
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 7px;
   cursor: pointer;
   font-size: 16px;
   margin-top: 10px;
