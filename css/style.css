@@ -54,7 +54,7 @@ body {
   .photo {
     height: 37vh;
     width: 37vh;
-    margin-right: 8vh;
+    margin-right: 0;
   }
 }
 
