@@ -186,6 +186,7 @@ span {
   animation: paint-text 300ms ease forwards 4.5s, unpaint-text 10ms ease forwards 5.5s;
 }
 
+
 .portfolio {
   margin-top: 25vh;
   display: flex;
@@ -263,32 +264,6 @@ span {
   }
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-
-@media (max-width: 600px) {
-  .grid {
-    grid-template-columns: 1fr;
-    grid-gap: 5vh;
-
-  }
-}
-
-
-.grid a {
-  margin-left: 20vh;
-
-}
-
-@media (max-width: 600px) {
-  .grid a {
-    margin-left: 0;
-
-  }
-}
 
 .footerContainer {
   display: flex;
