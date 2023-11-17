@@ -405,12 +405,12 @@ span {
 
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .card {
     transform: scale(0.80);
 
   }
-}
+} */
 
 
 
