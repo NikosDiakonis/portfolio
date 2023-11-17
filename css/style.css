@@ -355,6 +355,32 @@ span {
   margin-top: 5vh;
 }
 
+/* footer responsiveness for medium size screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .footerContainer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .footer-icon {
+    font-size: 4vh;
+    margin: 0 20px;
+  }
+
+  .foot {
+    font-size: 2em;
+  }
+
+  .footer-text {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+}
+
+
+
 /* cards section */
 
 
