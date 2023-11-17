@@ -214,7 +214,7 @@ span {
 }
 
 .portfolio-quote p {
-  max-width: 49%;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -222,7 +222,7 @@ span {
 
 @media (max-width: 768px) {
   .portfolio-quote p {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 
